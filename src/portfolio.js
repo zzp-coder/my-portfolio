@@ -20,10 +20,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Frank Peng",
+  title: "Hi all, I'm Frank",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A PhD student researching Natural Language Processing in Social Science, with a focus on Deep Learning and Text Analysis." 
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -126,22 +126,33 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
+      schoolName: "University of Bristol",
+      logo: require("./assets/images/harvardLogo.png"),
+      subHeader: "PhD",
+      duration: "2023 - Present",
+      desc: "Researching Natural Language Processing in Social Science, with a focus on Deep Learning and Text Analysis.",
+      descBullets: [
+        "Researching decision-making and operational efficiency",
+        "Interdisciplinary approaches leveraging AI"
+      ]
+    },
+    {
+      schoolName: "University of Bristol",
       logo: require("./assets/images/harvardLogo.png"),
       subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      duration: "September 2021 - November 2022",
+      desc: "Majored in traditional programming languages and data structures, with a focus on AI and Machine Learning.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
     },
     {
-      schoolName: "Stanford University",
+      schoolName: "Zhongnan University of Economics and Law",
       logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      subHeader: "Bachelor of Science in Management Science",
+      duration: "September 2017 - June 2021",
+      desc: "Ranked top 30% in the program. Took courses about C++, Calculus, Linear Algebra, and Probability.",
       descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
